@@ -1,0 +1,18 @@
+##############
+#Author : Yash dhawan 
+#Date : 10/01/2026
+#Version : 1 
+#Purpose : This script outputs the node health 
+#############  
+
+set -x #debug mode 
+set -e #exit if command having error 
+set -o #pipelfail 
+
+
+free -h 
+df -h 
+nproc 
+ps -ef 
+ps -ef | grep "error" | awk -f "" '{$1}
+
