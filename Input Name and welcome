@@ -1,0 +1,15 @@
+#!/bin/bash
+
+##########
+#Author - Yash Dhawan
+#Date - 15.01.2026
+#Purpose - Input name and print welcome message
+#Version - v1
+##########
+
+set -x #debug mode
+
+echo "Enter your name:"
+read name
+
+echo welcome $name! 
