@@ -1,5 +1,12 @@
 #!/bin/bash
 
-echo "hello bash script"
+##########
+#Author - Yash Dhawan
+#Date - 15.01.2026
+#Purpose - My first Bash Script to print Hello
+#Version - v1
+##########
 
-cat >  file.txt
+set -x #debug mode
+
+echo "Hello devops this is my first bash script"
